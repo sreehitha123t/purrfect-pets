@@ -102,6 +102,13 @@ img {
   gap: 25px;
   
 }
+.product-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: normal;
+}
+
 
 .product-card {
   background: #fff;
@@ -128,7 +135,7 @@ img {
   font-size: 20px;
   margin-top: 10px;
   color: #333;
-  text-align: left;
+  
 }
 
 .product-price {
@@ -149,11 +156,6 @@ img {
 
 .add-to-cart:hover {
   background-color: #d81b60;
-}
-.product-info{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 
