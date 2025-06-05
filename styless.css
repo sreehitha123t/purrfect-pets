@@ -67,7 +67,12 @@ img {
   padding: 40px 20px;
   background-color: #fefefe;
 }
-
+.men h2 {
+  text-align:left;
+  font-size: 40px;
+  color: #bf360c;
+  margin-bottom: 20px;
+}
 .heading3 {
   text-align: center;
   font-size: 36px;
