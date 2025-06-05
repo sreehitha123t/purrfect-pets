@@ -1,0 +1,38 @@
+body{
+
+background-image: url("cute.jpg");
+    
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    background-blend-mode: soft-light;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+.form:hover{
+    font-style: italic;
+    text-decoration: wavy;
+    transition: 3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:pink;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+label,h3:hover{
+    font-size: 20px;
+    color: rgb(56, 9, 131);
+    transition: 2s;
+}
